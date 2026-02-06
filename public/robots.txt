@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+
+Sitemap: https://ic3d.ru/sitemap.xml
+Host: https://ic3d.ru/
