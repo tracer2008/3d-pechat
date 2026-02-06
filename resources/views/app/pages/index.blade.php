@@ -237,7 +237,7 @@
     <div class="container mb-80">
         <h2>Как мы работаем</h2>
 
-{{--        <img src="{{asset('images/work.svg')}}" alt="" class="work_img">--}}
+        <img src="{{asset('images/work.svg')}}" alt="" class="work_img">
 
         <div class="work_list row">
             <div class="work_item work_item-1 row">
