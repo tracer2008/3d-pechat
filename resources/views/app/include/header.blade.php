@@ -31,7 +31,11 @@
 
             <div class="mobile_icons">
                 <a href="tel:+79507137135" class="mobile_icon mobile_icon-phone"></a>
-                <span class="mobile_icon mobile_icon-burger" onclick="support.openMenu(this)"></span>
+                <span class="mobile_icon mobile_icon-burger row" onclick="support.openMenu(this)">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </span>
             </div>
 
             <div class="mobile_menu_wrap ">

@@ -1,7 +1,7 @@
 class Support {
 
     openMenu(elem) {
-        elem.classList.add('active');
+        elem.classList.toggle('active');
         document.querySelector('.mobile_menu_wrap').classList.toggle('show');
     }
 

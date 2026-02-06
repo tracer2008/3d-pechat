@@ -54,8 +54,36 @@
     background-image: url("../images/icons/phone-mobile.svg");
 }
 .mobile_icon-burger {
-    background-image: url("../images/icons/burger-mobile.svg");
+    //background-image: url("../images/icons/burger-mobile.svg");
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 0;
+
+    &.active {
+
+        .line-2 {
+            display: none;
+        }
+        .line-1 {
+            transform: rotate(45deg);
+            top: 8px;
+            transition: all .2s;
+        }
+        .line-3 {
+            transform: rotate(-45deg);
+            top: -8px;
+            transition: all .2s;
+        }
+    }
 }
+.line {
+    width: 22px;
+    height: 2px;
+    background: #161D24;
+    position: relative;
+    transition: all .2s;
+}
+
 
 .mobile_menu_wrap {
     position: fixed;
