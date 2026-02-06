@@ -239,7 +239,7 @@
 
         <img src="{{asset('images/work.svg')}}" alt="" class="work_img">
 
-        <div class="work_list row">
+        <div class="work_list">
             <div class="work_item work_item-1 row">
                 <div class="work_item__num">1.</div>
                 <div class="work_item__text">Вы оставляете заявку и прикрепляете файлы</div>
