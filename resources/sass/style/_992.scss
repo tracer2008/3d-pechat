@@ -1,0 +1,72 @@
+@media (max-width: 992px) {
+
+
+    .menu_wrap,
+    .header_right {
+        display: none;
+    }
+
+    .header .logo {
+        width: 50px;
+    }
+    .mobile_icons {
+        display: flex;
+    }
+
+
+    .h2_desc {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .plastic__list {
+        gap: 20px;
+    }
+    .plastic_item {
+        width: calc(50% - 10px);
+    }
+
+    .text_img__img {
+        width: 100%;
+        max-width: 330px;
+    }
+
+
+    .equipment_item__title {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 20px;
+        height: 70px;
+    }
+
+
+
+    .footer {
+        padding: 25px 0 50px;
+        margin-top: 70px;
+
+        .menu {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
